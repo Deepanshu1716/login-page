@@ -1,0 +1,219 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("back.jpg");
+position: absolute;
+background-size: 100%;
+background-repeat: no-repeat;
+overflow-x: hidden;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: rgba(246, 124, 30, 0.954);
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 200px;
+    font-size: 18px;
+    list-style: none;
+    column-gap: 50px;
+    color: aliceblue;
+
+}
+li:hover{
+    color: orangered;
+    cursor:grab;
+}
+.serch{
+    width: 330px;
+    margin-top: -30px;
+    margin-left: 1050px;
+  
+    border-radius: 2px white;
+}
+.srch{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    height: 40px;
+    color: aliceblue ;
+    background: transparent;
+    border-radius: 8px 5px 8px 5px;
+}
+.btn{
+ width: 100px;
+ height: 40px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ background-color: orangered;
+}
+.btn:hover{
+    width: 95px;
+    height: 35px;
+    background-color: aliceblue;
+    cursor: grab;
+}
+.inbox{
+    height:400px;
+    position: absolute;
+    width: 270px;
+    margin-top: 80px;
+    margin-left: 950px;
+    border-radius: 8px ;
+    background-color: rgba(0, 0, 0, 0.717);
+}
+.inbox:hover{
+    background-color: rgba(52, 42, 40, 0.461);
+}
+.box1{
+    height: 40px;
+    width: 230px;
+    background-color: aliceblue;
+    color: rgb(233, 93, 5);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.log{
+position:fixed;
+margin-left: 50px ;  
+margin-top: 4px;  
+}
+.email{
+    margin-top: 90px;
+    height: 40px;
+    width: 200px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    margin-left: 10px;
+}
+.password{
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    margin-left: 10px;
+}
+.bttn{
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    background-color: orangered;
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.bttn:hover{
+   
+    border-radius: 10px;
+    border: none;
+    padding: 1px;
+    cursor: grab;
+    color: aliceblue;
+
+}
+.p1{
+     color: aliceblue;
+     font-size: 16px;
+     margin-top: 10px;
+     margin-left: 35px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p2{
+    color: aliceblue;
+     font-size: 18px;
+     color: orangered;
+     margin-top: -20px;
+     margin-left: 75px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.p3{
+
+    color: aliceblue;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 125px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.p4{
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 85px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.icon a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.icon ion-icon{
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 18px;
+    padding-top: 10px;
+    
+}
+.icon ion-icon:hover{
+    color: orange;
+}
+.head{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.head{
+    height: 80px;
+    width: 400px;
+    font-size: 60px;
+    color: orangered;  
+
+
+}
+.p5{
+    margin-top: 130px;
+    margin-left: 50px;
+    font-size: 18px;
+    position: absolute;
+    color: rgb(47, 58, 68);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.bbt{
+    height: 40px;
+    width: 140px;
+    border: none;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orangered;
+    color: black;
+    margin-top: 220px;
+    margin-left: 50px;
+    border-radius: 10px;
+
+}
+.bbt:hover{
+    background-color: rgba(185, 191, 196, 0.609);
+    color: orangered;
+}
